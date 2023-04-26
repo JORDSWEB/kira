@@ -31,6 +31,12 @@ html{
 .header #logo{
     width: 50px;
 }
+p{
+    color: white;
+    font-size: 50px;
+    padding-right: 30%;
+}
+
 .navbar a{
     color: white;
     font-size: 1.5rem;
@@ -367,7 +373,7 @@ html{
     flex: 1 1 20px;
 }
 .inner-footer h2{
-    font-size: 1rem;
+    font-size: 3rem;
     color: black;
 }
 .inner-footer a{
@@ -415,7 +421,7 @@ html{
 
 
 
-@media (max-width:767px) {
+@media (max-width:1024px) {
 
     html{
         font-size: 55%;
@@ -425,6 +431,7 @@ html{
     }
     .icons div{
         display: initial;
+        right: 50%;
     }
     .navbar{
         position: absolute;
@@ -451,7 +458,7 @@ html{
     }
     .background-content{
         
-        width: 100%;
+        width:100%;
        left: 50%;
        top: 50%;
        transform: translate(-50%, -50%);
@@ -466,8 +473,6 @@ html{
         justify-content: flex-start;
     
     }
-
-
 
 
 }
