@@ -1,6 +1,6 @@
 :root{
     --mainclr:#239f85;
-    --secclr:#ff5d22;
+    --secclr:#3122ff;
     --third:#DFE4E0;
     --mainafterclr:hsl(167, 81%, 79%);
 }
@@ -17,6 +17,10 @@ html{
     font-size: 62.5%;
     
 }
+html,body{
+    scroll-behavior: smooth;
+}
+
 .header{
     padding: 1rem 7%;
     background-color: var(--mainclr);
@@ -32,13 +36,13 @@ html{
     width: 50px;
 }
 p{
-    color: white;
+    color: black;
     font-size: 50px;
     padding-right: 30%;
 }
 
 .navbar a{
-    color: white;
+    color: black;
     font-size: 1.5rem;
     margin-left: 2rem;
     position: relative;
@@ -285,6 +289,15 @@ p{
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+h4{
+    font-size: x-large;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: 25px;
+    left: 10px;
+
 }
 .inner-doctor{
     flex: 1 1 300px;
